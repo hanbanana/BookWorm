@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script src="form.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body class="bodyContact">
+
+    <!-- Navigation -->
+    <div class="navDiv ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light textColor fixed-top shadow mb-3">
+            <div class="container ">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/bookworm.png" width="30" height="30" class="d-inline-block align-top" alt=""> ƁƠƠƘƜƠƦM
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="myFavourite.html">Favourite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact </a>
+                        </li>
+                        <li class="nav-item" id="loginNav">
+                            <a class="nav-link" href="login.html">Log In</a>
+                        </li>
+
+                        <li class="nav-item d-none" id="logoutNav">
+                            <button class="nav-link btn btn-light logoutBtn" type="submit">Log Out</button>
+                        </li>
+                        <li id="name" class="nav-item nav-link">
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </div>
+    <!-- Default form contact -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-0 mb-3">
+                <form id="reused_form">
+                    <div class="form-group">
+                        <label >Name</label>
+                        <input type="text" name="name" required class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label >Email</label>
+                        <input type="email" name="email" required class="form-control" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label >Message</label>
+                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-raised btn-lg btn-warning" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Default form contact -->
+
+
+    <!-- Footer -->
+    <footer class=" footer border-top   text-dark text-center">
+        <img src="images/bookworm.png" width="30" height="30" class="d-inline-block ext-center align-middle " alt="">
+        <span class="text-center"> Copyright &copy; Bookworm 2018</span>
+        <!-- /.container -->
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="javascript/contact.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
+
+</body>
+
+</html>
